@@ -15,3 +15,6 @@ def estimate_insurance_cost(name, age, sex, num_of_children, smoker):
  
 # Estimate Keanu's insurance cost
 keanu_insurance_cost = estimate_insurance_cost(name = 'Keanu', age = 29, sex = 1, num_of_children = 3, smoker = 1)
+
+# Estimate my insurance cost
+my_insurance_cost = estimate_insurance_cost(name = "Marion", age = 28, sex = 0, num_of_children = 0, smoker = 1)
